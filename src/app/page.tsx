@@ -72,7 +72,7 @@ export default function Home() {
                   </CardContent>
                 </Card>
               </Link>
-              <Link href="md.quad.codes">
+              <Link href="https://md.quad.codes">
                 <Card>
                   <CardHeader>
                     <img
