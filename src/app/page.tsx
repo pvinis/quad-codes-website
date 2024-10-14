@@ -12,7 +12,6 @@ export default function Home() {
         <div className="text-sm font-medium gap-6 flex items-center">
           <Link href="https://pav.gg/cvmd">Pavlos Vinieratos</Link>
           <Link href="https://pav.gg/cvmd">My CV</Link>
-          <Link href="https://pav.gg/cvmd">Contact</Link>
         </div>
       </header>
 
