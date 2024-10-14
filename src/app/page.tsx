@@ -9,7 +9,11 @@ export default function Home() {
           <CodeIcon className="w-6 h-6" />
           <span className="text-lg font-semibold">Quad.codes</span>
         </div>
-        <div className="text-sm font-medium">Pavlos Vinieratos</div>
+        <div className="text-sm font-medium gap-6 flex items-center">
+          <Link href="https://pav.gg/cvmd">Pavlos Vinieratos</Link>
+          <Link href="https://pav.gg/cvmd">My CV</Link>
+          <Link href="https://pav.gg/cvmd">Contact</Link>
+        </div>
       </header>
 
       <main className="flex-1 py-12 px-4 md:px-6 lg:px-8">
