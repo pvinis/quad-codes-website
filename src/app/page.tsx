@@ -11,7 +11,7 @@ const portfolioItems = [
       "https://raw.githubusercontent.com/pvinis/browsers-party/refs/heads/main/public/image.webp",
   },
   {
-    name: "Markdown Tailwind Viewer",
+    name: "Markdown Viewer",
     description: "An easy way to display markdown notes as full webpages.",
     link: "https://md.quad.codes",
     image: "/mdtw.png",
