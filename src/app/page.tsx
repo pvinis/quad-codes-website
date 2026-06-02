@@ -113,11 +113,8 @@ export default function Home() {
       <footer className="bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between">
         <div className="text-sm">&copy; 2024 Quad.codes</div>
         <div className="flex items-center gap-4">
-          <Link href="#" className="text-sm hover:underline" prefetch={false}>
-            Privacy
-          </Link>
-          <Link href="#" className="text-sm hover:underline" prefetch={false}>
-            Terms
+          <Link href="/contact" className="text-sm hover:underline" prefetch={false}>
+            Contact
           </Link>
         </div>
       </footer>
