@@ -3,6 +3,12 @@ import Link from "next/link";
 
 const portfolioItems = [
   {
+    name: "Hour Bell",
+    description: "A tiny local app for gentle recurring chimes.",
+    link: "/hour-bell",
+    image: "/hour-bell/app-icon.png",
+  },
+  {
     name: "Browsers Party",
     description:
       "The most complete collection of browser info on the internet.",
@@ -40,6 +46,7 @@ export default function Home() {
         <div className="text-sm font-medium gap-6 flex items-center">
           <Link href="https://pav.gg/cvmd">Pavlos Vinieratos</Link>
           <Link href="https://pav.gg/cvmd">My CV</Link>
+          <Link href="/contact">Contact</Link>
         </div>
       </header>
 
