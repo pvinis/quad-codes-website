@@ -17,6 +17,71 @@ const portfolioItems = [
       "https://raw.githubusercontent.com/pvinis/browsers-party/refs/heads/main/public/image.webp",
   },
   {
+    name: "PaceVer",
+    description:
+      "A versioning specification for mobile apps with native and over-the-air release channels.",
+    link: "https://pacever.org",
+    svg: (
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240">
+        <rect width="420" height="240" rx="32" fill="#111827" />
+        <path
+          d="M72 122h284"
+          fill="none"
+          stroke="#f9fafb"
+          strokeLinecap="round"
+          strokeWidth="14"
+        />
+        <circle cx="108" cy="122" r="30" fill="#60a5fa" />
+        <circle cx="210" cy="122" r="30" fill="#fbbf24" />
+        <circle cx="312" cy="122" r="30" fill="#34d399" />
+        <text
+          x="210"
+          y="58"
+          fill="#f9fafb"
+          fontFamily="ui-sans-serif, system-ui, sans-serif"
+          fontSize="34"
+          fontWeight="700"
+          textAnchor="middle"
+        >
+          PaceVer
+        </text>
+        <text
+          x="108"
+          y="185"
+          fill="#dbeafe"
+          fontFamily="ui-sans-serif, system-ui, sans-serif"
+          fontSize="18"
+          fontWeight="700"
+          textAnchor="middle"
+        >
+          MARKETING
+        </text>
+        <text
+          x="210"
+          y="185"
+          fill="#fef3c7"
+          fontFamily="ui-sans-serif, system-ui, sans-serif"
+          fontSize="18"
+          fontWeight="700"
+          textAnchor="middle"
+        >
+          NATIVE
+        </text>
+        <text
+          x="312"
+          y="185"
+          fill="#d1fae5"
+          fontFamily="ui-sans-serif, system-ui, sans-serif"
+          fontSize="18"
+          fontWeight="700"
+          textAnchor="middle"
+        >
+          OTA
+        </text>
+      </svg>
+    ),
+  },
+  {
     name: "Markdown Viewer",
     description: "An easy way to display markdown notes as full webpages.",
     link: "https://md.quad.codes",
