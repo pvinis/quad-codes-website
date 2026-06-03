@@ -17,6 +17,30 @@ const portfolioItems = [
       "https://raw.githubusercontent.com/pvinis/browsers-party/refs/heads/main/public/image.webp",
   },
   {
+    name: "LeanScaper Mobile App",
+    description:
+      "A field app for landscape crews to record huddles, make requests, and get AI-powered support.",
+    link: "https://apps.apple.com/us/app/leanscaper-ai/id6754711316",
+    image:
+      "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/e5/5a/13e55a32-6c7d-4205-ea5d-3307e67998a3/app-icon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+  },
+  {
+    name: "LeanScaper Website",
+    description:
+      "Part of the LeanScaper redesign for an AI-powered platform built for landscaping businesses.",
+    link: "https://leanscaper.com",
+    image:
+      "https://cdn.prod.website-files.com/690925c63cf367c8a9d2bbdb/69c13ad68558c110717d9331_Website%20Homepage%20Callout.avif",
+  },
+  {
+    name: "Autographer Mobile App",
+    description:
+      "A companion mobile app for reviewing, managing, and sharing photos from the Autographer wearable camera.",
+    link: "https://appstor.io/app/autographer-worlds-first-wearable-camera",
+    image:
+      "https://is4-ssl.mzstatic.com/image/thumb/Purple20/v4/4a/a2/4a/4aa24a9d-0693-256b-d991-da1073270177/contsched.xsqlwerb.png/512x512bb.jpg",
+  },
+  {
     name: "PaceVer",
     description:
       "A versioning specification for mobile apps with native and over-the-air release channels.",
@@ -163,7 +187,11 @@ export default function Home() {
                       {item.svg ? (
                         item.svg
                       ) : (
-                        <img src={item.image} alt={item.name} />
+                        <img
+                          src={item.image}
+                          alt={item.name}
+                          className="max-h-full max-w-full object-contain"
+                        />
                       )}
                     </CardHeader>
                     <CardContent>
