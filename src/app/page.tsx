@@ -35,10 +35,10 @@ const portfolioItems = [
   {
     name: "Autographer Mobile App",
     description:
-      "A companion mobile app for reviewing, managing, and sharing photos from the Autographer wearable camera.",
-    link: "https://appstor.io/app/autographer-worlds-first-wearable-camera",
+      "A signature style generator for creating custom electronic signatures, logos, and watermarks.",
+    link: "https://apps.apple.com/us/app/autographer/id6499551485",
     image:
-      "https://is4-ssl.mzstatic.com/image/thumb/Purple20/v4/4a/a2/4a/4aa24a9d-0693-256b-d991-da1073270177/contsched.xsqlwerb.png/512x512bb.jpg",
+      "https://static1.squarespace.com/static/664daca4df8aed12af51f098/t/664efb0e4e285262c5a581bc/1716452112804/Autographer-Logo.jpg?format=1500w",
   },
   {
     name: "PaceVer",
