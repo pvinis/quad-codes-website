@@ -3,6 +3,14 @@ import Link from "next/link";
 
 const portfolioItems = [
   {
+    name: "Fuse",
+    description:
+      "Solana's first smart wallet. Winner of App of the Year at the 2025 Expo App Awards.",
+    link: "https://apps.apple.com/us/app/fuse-solana-smart-wallet/id6470302252",
+    image:
+      "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/e9/91/f5e991d1-ad41-385e-8a59-d8c9e8ee25ba/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  },
+  {
     name: "Hour Bell",
     description: "A tiny local app for gentle recurring chimes.",
     link: "/hour-bell",
