@@ -141,8 +141,9 @@ export default function Home() {
           <span className="text-lg font-semibold">Quad.codes</span>
         </div>
         <div className="text-sm font-medium gap-6 flex items-center">
-          <Link href="https://pav.gg/cvmd">Pavlos Vinieratos</Link>
-          <Link href="https://pav.gg/cvmd">My CV</Link>
+          <Link href="https://pav.gg/cv">Pavlos Vinieratos</Link>
+          <Link href="https://pav.gg/cv">My CV</Link>
+          <Link href="/ai">AI</Link>
           <Link href="/contact">Contact</Link>
         </div>
       </header>
@@ -221,6 +222,9 @@ export default function Home() {
       <footer className="bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between">
         <div className="text-sm">&copy; 2024 Quad.codes</div>
         <div className="flex items-center gap-4">
+          <Link href="/ai" className="text-sm hover:underline" prefetch={false}>
+            AI info
+          </Link>
           <Link href="/contact" className="text-sm hover:underline" prefetch={false}>
             Contact
           </Link>
