@@ -141,8 +141,8 @@ export default function Home() {
           <span className="text-lg font-semibold">Quad.codes</span>
         </div>
         <div className="text-sm font-medium gap-6 flex items-center">
-          <Link href="https://pav.gg/cvmd">Pavlos Vinieratos</Link>
-          <Link href="https://pav.gg/cvmd">My CV</Link>
+          <Link href="https://pav.gg/cv">Pavlos Vinieratos</Link>
+          <Link href="https://pav.gg/cv">My CV</Link>
           <Link href="/ai">AI</Link>
           <Link href="/contact">Contact</Link>
         </div>
