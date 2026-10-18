@@ -17,6 +17,12 @@ const portfolioItems = [
     image: "/hour-bell/app-icon.png",
   },
   {
+    name: "Kept",
+    description: "A habit tracker with no account, where habits that stuck can be kept.",
+    link: "/kept",
+    image: "/kept/app-icon.png",
+  },
+  {
     name: "Browsers Party",
     description:
       "The most complete collection of browser info on the internet.",
