@@ -17,15 +17,20 @@ export default function PrivacyPage() {
         </Link>
 
         <h1 className="mt-10 text-4xl font-bold tracking-[-0.035em] sm:text-5xl">Privacy Policy</h1>
-        <p className="mt-3 text-sm text-[#7a6b61]">Last updated: 2026-10-18</p>
+        <p className="mt-3 text-sm text-[#7a6b61]">Last updated: 2026-11-21</p>
 
         <div className="mt-10 space-y-8 text-lg leading-8 text-[#4a3f38]">
           <section>
             <h2 className="mb-2 text-2xl font-semibold text-[#1f1a17]">Summary</h2>
             <p>
-              Kept doesn&apos;t need an account, and doesn&apos;t collect, sell or share your personal
-              data. Your habits stay on your own devices. When your devices sync through the internet,
-              what passes between them is sealed, so nothing in between, us included, can read it.
+              Kept doesn&apos;t need an account, and doesn&apos;t sell or share your personal data.
+              Your habits stay on your own devices. When your devices sync through the internet, what
+              passes between them is sealed, so nothing in between, us included, can read it.
+            </p>
+            <p className="mt-4">
+              From version 1.1, Kept sends crash reports, and anonymous stats about how it&apos;s used
+              where you allow them. Neither ever includes your habits or your name, and you can turn
+              either off in Settings › Privacy.
             </p>
           </section>
 
@@ -88,14 +93,68 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="mb-2 text-2xl font-semibold text-[#1f1a17]">
-              Analytics, ads, and tracking
-            </h2>
+            <h2 className="mb-2 text-2xl font-semibold text-[#1f1a17]">Crash reports</h2>
             <p>
-              Kept has no ads, analytics, third-party tracking or profiling. If you&apos;ve chosen to
-              share analytics with app developers in your device&apos;s settings, Apple or Google may
-              send us crash reports. If you test a beta through TestFlight, Apple passes on the
-              feedback and crash reports you choose to send.
+              When Kept crashes or runs into an error, it sends a crash report: what went wrong in the
+              app&apos;s code and what the app was doing, the app&apos;s version, the version of iOS or
+              Android, and the device&apos;s model. It never includes your habits, your device&apos;s
+              name or your sync key. Sentry processes crash reports for us and keeps them for 90 days.
+            </p>
+            <p className="mt-4">
+              Crash reports are on from the start, so we can fix what breaks; we rely on our
+              legitimate interest in keeping Kept working. You can turn them off in Settings ›
+              Privacy.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-2 text-2xl font-semibold text-[#1f1a17]">Anonymous usage stats</h2>
+            <p>
+              Kept can send anonymous stats about how it&apos;s used, so we can see what helps and what
+              to improve:
+            </p>
+            <ul className="mt-4 list-disc space-y-1 pl-6">
+              <li>the app&apos;s version, and the version of iOS or Android</li>
+              <li>whether it runs on a phone, a tablet or a foldable</li>
+              <li>your App Store country, or your phone&apos;s region on Android, and its language</li>
+              <li>how many habits you have, on what kinds of schedules, and how many have reminders</li>
+              <li>how many devices you&apos;ve paired, and whether they&apos;re iPhones or Android phones</li>
+              <li>which features you use, like checking off, skipping a day, pausing, widgets and reminders</li>
+            </ul>
+            <p className="mt-4">
+              They carry a random ID that isn&apos;t tied to you, and starts fresh every year. They
+              never include your habits&apos; names, notes or history, your device&apos;s name, your
+              sync key, your location or your IP address. PostHog processes them for us in the EU, and
+              we keep them for up to 25 months.
+            </p>
+            <p className="mt-4">
+              In the EU and the EEA, Brazil, South Korea, India and China, Kept asks before sending any
+              stats, and sends none unless you say yes: there, we rely on your consent. Everywhere
+              else, Kept tells you once, after you&apos;ve used it a few times, and sends them unless
+              you turn them off: there, we rely on our legitimate interest in improving Kept. Either
+              way, Settings › Privacy has a switch, and &ldquo;What&apos;s shared&rdquo; there lists
+              exactly what&apos;s sent.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-2 text-2xl font-semibold text-[#1f1a17]">Ads and tracking</h2>
+            <p>
+              Kept has no ads, and doesn&apos;t track you: nothing it sends is linked to you, combined
+              with data from other companies&apos; apps or websites, or used for advertising. If
+              you&apos;ve chosen to share analytics with app developers in your device&apos;s
+              settings, Apple or Google may also send us crash reports. If you test a beta through
+              TestFlight, Apple passes on the feedback and crash reports you choose to send.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-2 text-2xl font-semibold text-[#1f1a17]">Your choices</h2>
+            <p>
+              You can turn crash reports and stats off at any time in Settings › Privacy, and nothing
+              more is sent from then on. Because what&apos;s sent isn&apos;t linked to you, we
+              can&apos;t pick out one person&apos;s reports to show or delete them; if you have
+              questions, get in touch (see below).
             </p>
           </section>
 
