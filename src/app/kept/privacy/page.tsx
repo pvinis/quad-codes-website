@@ -98,7 +98,7 @@ export default function PrivacyPage() {
               When Kept crashes or runs into an error, it sends a crash report: what went wrong in the
               app&apos;s code and what the app was doing, the app&apos;s version, the version of iOS or
               Android, and the device&apos;s model. It never includes your habits, your device&apos;s
-              name or your sync key. Sentry processes crash reports for us and keeps them for 90 days.
+              name or your sync key. Sentry processes crash reports for us, in the United States, under the safeguards EU law requires for such transfers, and keeps them for 30 days.
             </p>
             <p className="mt-4">
               Crash reports are on from the start, so we can fix what breaks; we rely on our
@@ -125,7 +125,7 @@ export default function PrivacyPage() {
               They carry a random ID that isn&apos;t tied to you, and starts fresh every year. They
               never include your habits&apos; names, notes or history, your device&apos;s name, your
               sync key, your location or your IP address. PostHog processes them for us in the EU, and
-              we keep them for up to 25 months.
+              keeps them for up to a year.
             </p>
             <p className="mt-4">
               In the EU and the EEA, Brazil, South Korea, India and China, Kept asks before sending any
