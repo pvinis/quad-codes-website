@@ -125,7 +125,7 @@ export default function PrivacyPage() {
               They carry a random ID that isn&apos;t tied to you, and starts fresh every year. They
               never include your habits&apos; names, notes or history, your device&apos;s name, your
               sync key, your location or your IP address. PostHog processes them for us in the EU, and
-              keeps them for up to a year.
+              keeps them for up to 25 months.
             </p>
             <p className="mt-4">
               In the EU and the EEA, Brazil, South Korea, India and China, Kept asks before sending any
