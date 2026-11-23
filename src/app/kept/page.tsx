@@ -3,27 +3,36 @@ import Link from "next/link";
 
 const features = [
   {
-    title: "When it's part of you, keep it",
-    text: "A habit that has stuck goes on your Kept shelf, with its history, and stops asking. Kept suggests it once a habit has clearly stuck, and never for things like medication.",
-  },
-  {
-    title: "No account",
-    text: "Your habits stay on your own devices. Pair a second one with a QR code, an iPhone with an Android phone too, and they sync, sealed so nothing in between can read them.",
+    title: "No account. Just your devices.",
+    text: "Your habits live on your own devices, not in an account, and Kept works offline. Pair another iPhone, iPad or Android phone with a QR code and they keep each other up to date, sealed end to end: directly when they're nearby, or through a relay that can't read them. No ads, no tracking.",
   },
   {
     title: "Streaks that are fair",
-    text: "Skip a day when you're ill or travelling, pause a habit for a season, or mark a day failed. Days can end at 4am, so a late night still counts for its evening.",
+    text: "Ill, travelling, or just a hard week? Skip the day and your streak stays safe. Pause a habit for a season, or mark a day failed. Let your day end at 4am, so a late night still counts for the evening it belongs to.",
+  },
+  {
+    title: "When it sticks, keep it",
+    text: "Once a habit has clearly become part of you, Kept suggests moving it to your Kept shelf, with its whole history. It stops asking, and your list stays short.",
+  },
+  {
+    title: "See how it's going",
+    text: "Every habit has its current and best streak, the last 30 days, a calendar, and six months at a glance. On iPad, see four weeks of every habit on one screen.",
+  },
+  {
+    title: "Reminders at your usual time",
+    text: "Pick a time, or let Kept learn when you usually do it, day by day. It only reminds you on days a habit is due and not done yet.",
   },
   {
     title: "Widgets everywhere",
-    text: "Check things off from the home screen and the lock screen, Control Center on iPhone, and a Quick Settings tile on Android.",
+    text: "Check things off from the home screen and the lock screen, see what's up next, or keep a habit's month in view. There's a Control Center control on iPhone and a Quick Settings tile on Android.",
   },
 ];
 
 const screens = [
-  { src: "/kept/today.png", alt: "Today, with a habit that looks like part of you" },
-  { src: "/kept/moment.png", alt: "A habit kept, with its stamp" },
-  { src: "/kept/shelf.png", alt: "The Kept shelf" },
+  { src: "/kept/today.png", alt: "Today, with a strip of recent days for each habit" },
+  { src: "/kept/skip.png", alt: "A habit's menu, with Skip today, Failed and Pause" },
+  { src: "/kept/keep-it.png", alt: "Kept suggesting to keep a habit that looks like part of you" },
+  { src: "/kept/detail.png", alt: "A habit's streaks, last 30 days and calendar" },
 ];
 
 export default function KeptPage() {
@@ -39,16 +48,17 @@ export default function KeptPage() {
           priority
         />
 
-        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-[#ff5a36]">
-          Quad.codes app
+        <p className="mb-4 inline-block rounded-[999px] bg-[#ff5a36]/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-[#e8492a]">
+          Local-first · No account
         </p>
         <h1 className="text-5xl font-bold leading-tight tracking-[-0.04em] sm:text-7xl">Kept</h1>
         <p className="mt-2 text-2xl font-semibold tracking-[-0.02em] text-[#6b5e55] sm:text-3xl">
-          Habits you keep.
+          Your habits, on your devices.
         </p>
         <p className="mt-6 max-w-2xl text-xl leading-8 text-[#4a3f38]">
-          A habit tracker for iPhone, iPad and Android. Check things off, keep your streaks going, and
-          when a habit has become part of you, keep it.
+          Kept is a local-first habit tracker for iPhone, iPad and Android. Your habits live on your
+          own devices, not in an account, and sync between them is sealed end to end. Check things
+          off, keep your streaks going, and when a habit has become part of you, keep it.
         </p>
 
         <div className="mt-10 flex flex-wrap gap-3 text-sm font-medium">
@@ -66,18 +76,25 @@ export default function KeptPage() {
           </Link>
         </div>
 
-        <div className="mt-16 grid grid-cols-3 gap-4 sm:gap-8">
+        <div className="mt-16 grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-6">
           {screens.map((screen) => (
             <Image
               key={screen.src}
               src={screen.src}
               alt={screen.alt}
-              width={598}
-              height={1300}
-              className="h-auto w-full rounded-[1.5rem] shadow-lg ring-1 ring-[rgba(0,0,0,0.06)] sm:rounded-[2.25rem]"
+              width={600}
+              height={1303}
+              className="h-auto w-full rounded-[1.25rem] shadow-lg ring-1 ring-[rgba(0,0,0,0.06)] sm:rounded-[1.75rem]"
             />
           ))}
         </div>
+        <Image
+          src="/kept/ipad.png"
+          alt="Kept on iPad: Today next to a habit's streaks and calendar"
+          width={1200}
+          height={832}
+          className="mt-4 h-auto w-full rounded-lg shadow-lg ring-1 ring-[rgba(0,0,0,0.06)] sm:mt-6 sm:rounded-xl"
+        />
 
         <div className="mt-16 grid gap-8 sm:grid-cols-2">
           {features.map((feature) => (
